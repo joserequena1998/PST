@@ -1,0 +1,57 @@
+V "GNAT Lib v4.9"
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_EXCEPTIONS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+
+U ordered_lists_g%b	ordered_lists_g.adb	e6b9549a NE OO PK GE
+
+U ordered_lists_g%s	ordered_lists_g.ads	64cb3dc9 BN EE NE OO PK GE
+W ada%s			ada.ads			ada.ali
+W ada.unchecked_deallocation%s
+
+D ada.ads		20070406091342 3ffc8e18
+D a-uncdea.ads		20070406091342 f15a5ed1
+D ordered_lists_g.ads	20180108201651 95916318
+D ordered_lists_g.adb	20180108224835 73283782
+D system.ads		20160213141829 90249111
+X 1 ada.ads
+16K9*Ada 19e8 3|1r6 4|66r25
+X 2 a-uncdea.ads
+20u15*Unchecked_Deallocation 3|1w10 4|66r29
+X 3 ordered_lists_g.ads
+4+8 Element_Type 5r30 11r53 15r49 23r14 4|13r53 55r49
+5V18 ">"{boolean} 5>22 5>26 4|24s23 33s29 37s55
+5*22 E1{4+8}
+5*26 E2{4+8}
+7k9*Ordered_Lists_G 4z8 5z18 20E8 26l5 26e20 4|1b14 79l5 79t20
+9P8*List_Type 11r30 15r31 17r39 21c8 24r11 4|2r30 13r30 15r13 16r21 55r31
+. 66r58 67r39 68r12
+11U13*Add 11=17 11>41 4|13b13 51l7 51t10
+11p17 List{9P8} 4|13b17 20r18 21m9 23r12 24r25 25r14 27r28 28m14 31r22 32r23
+. 35m16
+11*41 Element{4+8} 4|13b41 18r25 24r15 33r21 37r47
+13X3*Empty_List 4|60r13 75r13
+15V12*Get_First{4+8} 15>22 4|55b12 62l7 62t16
+15p22 List{9P8} 4|55b22 57r21 58r14
+17U13*Delete_First 17=26 4|67b13 77l7 77t19
+17p26 List{9P8} 4|67b26 70r21 71r16 72m7 72r15
+20R8 Cell 21r28 22c8 25e13 4|18r19 66r52
+23*5 Element{4+8} 4|24r30 33r37 37r64 58r19
+24p5 Next{9P8} 4|23r17 25m19 27m20 32r28 34m22 39r36 42m25 43m25 45m25 72r20
+X 4 ordered_lists_g.adb
+2V12 Is_Empty{boolean} 2b12 2>21 9l7 9t15 20s9 57s12 70s12
+2p21 List{3|9P8} 4r9
+14b6 Added{boolean}
+15p6 P_New{3|9P8} 18m6 21r17 25r27 27r14 28r22 34r16 35r24 42r19 43r33 45r33
+16p6 P_Aux{3|9P8} 31m13 33r31 34r30 38m19 43r19 45r19
+16p13 P_Aux2{3|9P8} 32m13 37r22 37r57 38r28 39m19 39r29 41r19 42r33
+66U13 Free[2|20] 73s7
+68p5 P_Aux{3|9P8} 71m7 73m12 73r12
+

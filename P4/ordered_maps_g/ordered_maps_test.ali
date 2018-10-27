@@ -1,0 +1,151 @@
+V "GNAT Lib v4.9"
+M P W=b
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_IMPLICIT_DYNAMIC_CODE
+RV NO_IMPLICIT_LOOPS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+
+U ordered_maps_test%b	ordered_maps_test.adb	a332e9d1 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W interfaces%s		interfac.ads		interfac.ali
+W ordered_maps_g%s	ordered_maps_g.adb	ordered_maps_g.ali
+W system%s		system.ads		system.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-charac.ads		20070912115821 2d3ec45b
+D a-chlat1.ads		20140225151544 66457d31
+D a-except.ads		20140129161953 f86a4103
+D a-finali.ads		20111121113555 52ecdc1b
+D a-ioexce.ads		20140225151544 e4a01f64
+D a-stream.ads		20140122164720 1a984740
+D a-string.ads		20070406091342 90ac6797
+D a-strmap.ads		20090409150019 9cb836fb
+D a-strunb.ads		20120426100351 3f91d4c5
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20140129155348 386df5d4
+D a-unccon.ads		20070406091342 f9eb8f06
+D interfac.ads		20140225151838 69adb1b9
+D i-cstrea.ads		20130412125801 8128536b
+D ordered_maps_g.ads	20180107110314 541989a5
+D ordered_maps_g.adb	20180107110443 1f2eb995
+D ordered_maps_test.adb	20180107110413 f0d74165
+D system.ads		20160213141829 90249111
+D s-atocou.ads		20131010110730 cd7c94ca
+D s-atocou.adb		20131010121735 62bad392
+D s-conca2.ads		20140225151544 02a0d7d0
+D s-conca3.ads		20140225151544 0b705ca5
+D s-crtl.ads		20140225151544 840e6817
+D s-exctab.ads		20140225151139 54135002
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20140225151139 814daec4
+D s-finroo.ads		20120426095924 4ff27390
+D s-imgint.ads		20090409150019 02dbe0c2
+D s-parame.ads		20140225151139 ab8cb46a
+D s-pooglo.ads		20110804083314 542f33d0
+D s-secsta.ads		20140225151139 86a2856d
+D s-soflin.ads		20140225151139 aa763b52
+D s-stache.ads		20140225151139 a37c21ec
+D s-stalib.ads		20140225151139 a891183f
+D s-stoele.ads		20140225151139 2dc34a04
+D s-stoele.adb		20140225151139 ed88f8fb
+D s-stopoo.ads		20131010103753 b16154c2
+D s-stposu.ads		20121005142121 ffeba1c5
+D s-stratt.ads		20131014135145 aedef97e
+D s-traent.ads		20140225151139 b5116092
+D s-unstyp.ads		20140225151139 510692af
+D s-wchcon.ads		20140225151139 1b7d22d2
+X 1 ada.ads
+16K9*Ada 19e8 18|1r6 2r6 6r24 7r24
+X 8 a-string.ads
+16K13*Strings 35e16 18|2r10 6r28
+X 10 a-strunb.ads
+76K21*Unbounded 489e26 18|2w18 6r36
+79R9*Unbounded_String<5|48R9> 473e14 18|9r65 10r23 15r17
+94V13*To_Unbounded_String{79R9} 18|40s7 41s7 49s32 57s32 58s7 66s7 67s7 75s7
+. 76s7 84s7 85s7 93s7 94s7 102s32 111s35 124s35 137s35
+100V13*To_String{string} 18|27s26 28s11 52s9 105s9
+166V14*"="{boolean} 18|11r17
+174V14*"="{boolean} 18|11r17
+178V14*"<"{boolean} 18|12r17
+X 12 a-textio.ads
+49K13*Text_IO 471e16 18|1w10 7r28
+166U14*New_Line 18|34s8 43s8 48s8 60s8 69s8 78s8 87s8 96s8 101s8 110s8 118s8
+. 123s8 131s8 136s8 144s8
+263U14*Put_Line 18|23s10 24s10 27s12 35s8 44s8 51s10 54s10 61s8 70s8 79s8
+. 88s8 97s8 104s10 107s10 113s10 115s10 119s8 126s10 128s10 132s8 139s10
+. 141s10 145s8
+X 16 ordered_maps_g.ads
+2+8 Key_Type 18|9r47
+3+8 Value_Type 18|10r5
+4V18 "="{boolean} 18|11r6
+5V18 "<"{boolean} 18|12r6
+6i3 Max_Elements{natural} 18|13r5
+8k9*Ordered_Maps_G 66e19 18|3w6 9r31
+9R8 Map 18|18r24[9] 20r41[9]
+11U13 Get 18|49s16[9] 102s16[9]
+17U13 Put 18|39s16[9] 57s16[9] 65s16[9] 74s16[9] 83s16[9] 92s16[9]
+21U13 Delete 18|111s16[9] 124s16[9] 137s16[9]
+25V12 Map_Length{natural} 18|36s30[9] 45s30[9] 62s30[9] 71s30[9] 80s30[9]
+. 89s30[9] 98s30[9] 120s30[9] 133s30[9] 146s30[9]
+30R8 Cursor 18|21r21[9]
+32V12 First{30R8[18|9]} 18|21s44[9]
+34U13 Next 18|29s20[9]
+36V12 Has_Element{boolean} 18|26s24[9]
+38R8 Element_Type
+39r5 Key{10|79R9} 18|27r60[9]
+40r5 Value{10|79R9} 18|28r45[9]
+45V12 Element{38R8[18|9]} 18|27s49[9] 28s34[9]
+X 18 ordered_maps_test.adb
+5U11*Ordered_Maps_Test 5b11 148l5 148t22
+6K11 ASU=6:36 9r61 10r19 11r12 12r12 15r13 27r22 28r7 40r3 41r3 49r28 52r5
+. 57r28 58r3 66r3 67r3 75r3 76r3 84r3 85r3 93r3 94r3 102r28 105r5 111r31
+. 124r31 137r31
+7K11 ATIO=7:28 23r5 24r5 27r7 34r3 35r3 43r3 44r3 48r3 51r5 54r5 60r3 61r3
+. 69r3 70r3 78r3 79r3 87r3 88r3 96r3 97r3 101r3 104r5 107r5 110r3 113r5 115r5
+. 118r3 119r3 123r3 126r5 128r5 131r3 132r3 136r3 139r5 141r5 144r3 145r3
+9K11 Ordered_Maps[16|8] 18r11 20r28 21r8 21r31 26r11 27r36 28r21 29r7 36r17
+. 39r3 45r17 49r3 57r3 62r17 65r3 71r17 74r3 80r17 83r3 89r17 92r3 98r17
+. 102r3 111r3 120r17 124r3 133r17 137r3 146r17
+15r3 Value{10|79R9} 49m69 52r19 102m69 105r19
+16b3 Success{boolean} 49m76 50r6 102m76 103r6 111m70 112r6 124m71 125r6 137m71
+. 138r6
+18r3 A_Map{16|9R8[9]} 36r41 37r14 39m21 39r21 45r41 46r13 49m21 49r21 57m21
+. 57r21 62r41 63r13 65m21 65r21 71r41 72r13 74m21 74r21 80r41 81r13 83m21
+. 83r21 89r41 90r13 92m21 92r21 98r41 99r13 102m21 102r21 111m24 111r24 120r41
+. 121r13 124m24 124r24 133r41 134r14 137m24 137r24 146r41 147r14
+20U13 Print_Map 20b13 20>24 31l7 31t16 37s3 46s3 63s3 72s3 81s3 90s3 99s3
+. 121s3 134s3 147s3
+20r24 M{16|9R8[9]} 21r50
+21r5 C{16|30R8[9]} 26r36 27r57 28r42 29m25 29r25
+

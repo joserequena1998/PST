@@ -1,0 +1,109 @@
+V "GNAT Lib v4.9"
+P SS ZX
+
+RN
+RV NO_DELAY
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_RELATIVE_DELAY
+RV NO_SECONDARY_STACK
+RV SPARK_05
+
+U procedures%b		procedures.adb		2a413c0d NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W protected_ops%s	protected_ops.adb	protected_ops.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+W system.img_lld%s	s-imglld.adb		s-imglld.ali
+W system.img_lli%s	s-imglli.adb		s-imglli.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U procedures%s		procedures.ads		4eb537a7 EE NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-calend.ads		20120515092648 d86d6c8c
+D a-caldel.ads		20140120152337 9f20b83d
+D a-except.ads		20140129161953 f86a4103
+D a-finali.ads		20111121113555 52ecdc1b
+D a-ioexce.ads		20140225151544 e4a01f64
+D a-reatim.ads		20090409150019 63f07669
+D a-stream.ads		20140122164720 1a984740
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20140129155348 386df5d4
+D a-unccon.ads		20070406091342 f9eb8f06
+D interfac.ads		20140225151838 69adb1b9
+D i-c.ads		20110801143639 5421119b
+D i-cstrea.ads		20130412125801 8128536b
+D procedures.ads	20151203100014 2d4541ce
+D procedures.adb	20151203100014 17d19fd9
+D protected_ops.ads	20151203100014 4b4861a7
+D system.ads		20160213141829 90249111
+D s-atacco.ads		20120515093410 4c36d12f
+D s-conca3.ads		20140225151544 0b705ca5
+D s-crtl.ads		20140225151544 840e6817
+D s-exctab.ads		20140225151139 54135002
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20140225151139 814daec4
+D s-finroo.ads		20120426095924 4ff27390
+D s-imglld.ads		20090409150019 f3220969
+D s-imglli.ads		20090409150019 114f55d1
+D s-linux.ads		20140409145429 5b2f79a5
+D s-multip.ads		20101011073009 38ac9f73
+D s-oscons.ads		20160213141902 a445b120
+D s-osinte.ads		20140409145429 59011f13
+D s-parame.ads		20140225151139 ab8cb46a
+D s-pooglo.ads		20110804083314 542f33d0
+D s-secsta.ads		20140225151139 86a2856d
+D s-soflin.ads		20140225151139 aa763b52
+D s-stache.ads		20140225151139 a37c21ec
+D s-stausa.ads		20110804134155 017a0a05
+D s-stalib.ads		20140225151139 a891183f
+D s-stoele.ads		20140225151139 2dc34a04
+D s-stoele.adb		20140225151139 ed88f8fb
+D s-stopoo.ads		20131010103753 b16154c2
+D s-tasinf.ads		20120730151500 21316953
+D s-taspri.ads		20110927094500 15f617a8
+D s-taprop.ads		20111212143339 1dd2e1b6
+D s-taskin.ads		20140131154341 3f821f32
+D s-traent.ads		20140225151139 b5116092
+D s-unstyp.ads		20140225151139 510692af
+D s-wchcon.ads		20140225151139 1b7d22d2
+X 1 ada.ads
+16K9*Ada 19e8 15|1r6 5r23 16|1r6 3r6 7r23 8r11 9r11 11r7 13r14 15r24 20r16
+. 22r7 22r30 23r7 27r10 27r32 34r7 34r30 35r7 42r7 42r30 43r7
+X 7 a-reatim.ads
+39K13*Real_Time 139e18 15|1w10 5r27 16|3w10 7r27 8r15 9r15 11r11 13r18 15r28
+. 20r20 22r34 27r14 27r36 34r34 42r34
+41O9*Time<duration> 15|5r37 16|7r37 20r30
+46O9*Time_Span<duration> 16|9r25
+53V13*Clock{41O9} 16|22s44 27s24 34s44 42s44
+55V14*"+"{41O9} 16|27s30
+80V13*To_Duration{duration} 16|15s38
+85V13*Milliseconds{46O9} 16|27s46
+98I9*Seconds_Count<long_integer> 16|8r25 13r28
+100U14*Split 16|11s21
+X 10 a-textio.ads
+49K13*Text_IO 471e16 16|1w10 22r11 23r11 34r11 35r11 42r11 43r11
+242U14*Put 16|22s19 34s19 42s19
+263U14*Put_Line 16|23s19 35s19 43s19
+X 15 procedures.ads
+3K9*Procedures 12l5 12e15 16|5b14 26r10 49l5 49t15
+5V13*Image{string} 5>20 16|7b13 16l8 16t13 22s24 34s24 42s24
+5o20 T{7|41O9} 16|7b20 11r27
+7U14*Timed_Procedure 16|19b14 26r21 29l8 29t23
+9U14*Procedure_1 16|32b14 38l8 38t19
+10U14*Procedure_2 16|40b14 46l8 46t19
+X 16 procedures.adb
+8i7 SC{7|98I9} 11m30 13r48
+9o7 TS{7|46O9} 11m34 15r50
+X 17 protected_ops.ads
+9K9*Protected_Ops 16|2w6 25r7 17|25e18
+13U14*Program_Timer_Procedure 16|25s21
+X 37 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+

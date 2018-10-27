@@ -1,0 +1,21 @@
+V "GNAT Lib v4.9"
+P ZX
+
+RN
+RV SPARK_05
+
+U chat_messages%s	chat_messages.ads	7a7d8320 NE OO PK
+
+D chat_messages.ads	20180109191132 7a7d8320
+D system.ads		20160213141829 90249111
+X 1 chat_messages.ads
+1K9*Chat_Messages 5l5 5e18
+2E9*Message_Type 2e69
+2n26*Init{2E9}
+2n32*Welcome{2E9}
+2n41*Writer{2E9}
+2n49*Server{2E9}
+2n57*Logout{2E9}
+2n65*Ack{2E9}
+4M9*Seq_N_T
+

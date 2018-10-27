@@ -1,0 +1,2 @@
+How to compile: gnatmake -I.. test_protected_ops_1
+
